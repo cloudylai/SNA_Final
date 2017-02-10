@@ -1,0 +1,165 @@
+sklearn:
+
+SGD linear model:
+
+	common neighbors + common spots + adamic_adar + shortest path: 0.4114271916107074
+
+	common neighbors + common spots + adamic_adar: 0.6296223898445406
+
+	common neighbors + common spots + shortest path: 0.4114271916107074
+
+	common neighbors + common spots + clustering coefficient: 0.6294384141293349
+
+*	common neighbors + common spots + friends measure: 0.6437540244687702
+
+	common spots: 0.6296223898445406
+
+
+	common neighbors + dist. common spots + adamic_adar + mean_distance: 0.6155712445957133
+
+	common neighbors + adamic_adar + mean_distance: 0.6155712445957133
+
+
+
+
+SVC:
+
+	common neighbors + common spots + adamic_adar + shortest path: 0.4114271916107074
+
+	common neighbors + common spots + adamic_adar: 0.634175788795879
+
+	common neighbors + common spots + friends measure: 0.6349921810321038
+
+	common spots: 0.6341297948670775
+ 
+*	common neighbors + check_common_time_spot + check_cosine_common_spot + dist. common spots + shortest_path + katzB + adamic_adar + mean_distance: 0.648295924938
+
+
+
+Decision Tree:
+
+*	common neighbors + common spots + adamic_adar: 0.6506646122711802
+
+	common neighbors + common spots + friends measure: 0.5998528194278355
+
+	common spots: 0.6341297948670775
+
+
+	common neighbors + dist. common spots + adamic_adar + mean distance: 0.568944899273296
+
+
+
+AdaBoost:
+
+	common neighbors + common spots + katzB (n_estimator=300): 0.6398445405206513
+
+	common neighobrs + common spots + katzB + adamic_adar(n_estimator=300): 0.6463526814460491
+
+	common neighbors + common spots + katzB + adamic_adar + mean_distance(n_estimator=300): 0.6471230797534725
+
+	common neighbors + dist. common spots + katzB(n_estimator=300): 0.6156057400423144
+
+	common neighbors + dist. common spots (new) + katzB(n_estimator=300):0.6156057400423144
+
+	common neighbors + check common spots + katzB(n_estimator=300): 0.6247355349093919
+
+	common neighbors + check common spots + katzB + adamic_adar + mean_distance(n_estimator=300): 0.6324165210192254
+	(common neighbors: 0.10666667; check common spots: 0.16666667; katzB: 0.10666667; adamic_adar: 0.42; mean_distance:0.2)
+
+	jaccard neighbors + cosine common spots + katzB + adamic_adar + mean_distance(n_estimator=300): 0.642420200534
+	(jaccard neighbors: 0.14333333; cosine common spots: 0.06666667; katzB: 0.09; adamic_adar: 0.52666667; mean_distance:0.17333333)
+
+	common neighbors + jaccard spots + check_common spot + katzB + adamic_adar + mean_distance(n_estimator=300): 0.647077085825
+	(common neighbors: 0.1; jaccard spots: 0.10666667; check common spot: 0.09666667; katzB: 0.11333333; adamic_adar: 0.42666667; mean_distance: 0.15666667)
+
+	common neighbors + common spots + check common spot + cosine common spot + katzB + adamic_adar + mean_distance: 0.646858614663
+	(common neighbors: 0.10333333; common spots: 0.05; check common spot: 0.10666667; cosine common spot: 0.06; katzB: 0.12333333; adamic_adar: 0.40333333; mean_distance: 0.15333333)
+
+	common neighbors + jaccard spots + check common spot + dist. common spot + katzB + adamic_adar + mean_distance: 0.646249195106
+	(common neighbors: 0.10333333; jaccard spots: 0.09333333; check common spot + dist. common spot: 0.09; katzB: 0.10666667; adamic_adar: 0.37; mean_distance: 0.12333333)
+
+*	common neighbors + jaccard spots + prob_common_spot + common_time_spot + check_cosine_common_spot + shortest_path + katzB + adamic_adar + mean_distance: 0.659449452672
+	(common neighbors:0.08666667; jaccard spots:0.04333333; prob_common_spot:0.5333333; common_time_spot:0.09; check_cosine_common_spot: 0.09; shortest_path:0.15333333; katzB:0.1; adamic_adar:0.3; mean_distance:0.12)
+
+	common neighbors + jaccard spots + prob_common_spot + check_common_time_spot + check_cosine_common_spot + dist_common_spot + shortest_path + katzB + adamic_adar + mean_distance: 0.658334099899
+	(common neighbors:0.08333333; prob_common_spot:0.04333333; check_common_time_spot:0.14; check_cosine_common_spot: 0.05666667; dist_common_spot: 0.08; shortest_path:0.13; katzB:0.08; adamic_adar: 0.29666667; mean_distance:0.09)
+
+
+
+RandomForest:
+	
+*	common neighbors + prob_common_spot + common_time_spot + check_cosine_common_spot + shortest_path + katzB + adamic_adar + mean_distance: 0.661093735627
+	(common neighbors:0.09123212; prob_common_spot:0.03006548; common_time_spot:0.03006548; check_cosine_common_spot: 0.08490857; shortest_path:0.11708482; katzB:0.20091266; adamic_adar:0.20090898; mean_distance:0.23846774)
+
+	common neighbors + prob_common_spot + check_common_time_spot + check_cosine_common_spot + dist_common_spot + shortest_path + katzB + adamic_adar + mean_distance: 0.66048431607
+	(common neighbors:0.09449929; prob_common_spot:0.01294066; common_time_spot:0.06871312; check_cosine_common_spot:0.06275511; dist_common_spot:0.05350729; shortest_path:0.13004458; katzB:0.18053889; adamic_adar:0.18461882; mean_distance:0.21238223
+
+
+
+Files:
+
+linear_predict1.txt: common neighbors + common spots + adamic_adar + shortest path
+
+linear_predict2.txt: common neighbors + common spots + adamic_adar
+
+linear_predict3.txt: common neighbors + common spots + shortest path
+
+
+
+linear_predict5.txt: common neighbors + common spots + friends measure
+
+linear_predict6.txt: common spots
+
+linear_predict8.txt: common neighbors + adamic_adar + dist. common spots + mean_distance
+
+linear_predict9.txt: common neighbors + adamic_adar + mean_distance
+
+
+svm_predict1.txt: common neighbors + common spots + adamic_adar + shortest path
+
+svm_predict2.txt: common neighbors + common spots + adamic_adar
+
+svm_predict3.txt: common neighbors + common spots + friends measure
+
+svm_predict4.txt: common spots
+
+svm_predict5.txt: common neighbors + check_common_time_spot + check_cosine_common_spot + dist. common spots + shortest_path + katzB + adamic_adar + mean_distance
+
+
+dectree_predict1.txt: common neighbors + common spots + adamic_adar
+
+dectree_predict2.txt: common neighbors + common spots + friends measure
+
+dectree_predict3.txt: common spots
+
+dectree_predict5.txt: common neighbors + dist. common spots + adamic_adar + mean_distance
+
+
+adaboost_predict1.txt(n_est=300): common neighbors + common spots + katzB
+
+adaboost_predict2.txt(n_est=300): common neighbors + common spots + katzB + adamic_adar
+
+adaboost_predict3.txt(n_est=300): common neighbors + common spots + katzB + adamic_adar + mean_distance
+
+adaboost_predict4.txt(n_est=300): common neighbors + dist. common spots + katzB 
+
+adaboost_predict5.txt(n_est=300): common neighbors + dist. common spots (new) + katzB
+
+adaboost_predict6.txt(n_est=300): common neighbors + check common spots + katzB
+
+adaboost_predict7.txt(n_est=300): common neighbors + check common spots + katzB + adamic_adar + mean_distance
+
+adaboost_predict8.txt(n_est=300): jaccard neighbors + cosine common spots + katzB + adamic_adar + mean_distance
+
+adaboost_predict9.txt(n_est=300): common neighbors + jaccard spots + check common spot + katzB + adamic_adar + mean_distance
+
+adaboost_predict10.txt(n_est=300): common neighbors + common spots + check common spot + cosine common spot + katzB + adamic_adar + mean_distance
+
+adaboost_predict11.txt(n_est=300): common neighbors + jaccard spots + check common spot + dist. common spot + katzB + adamic_adar + mean_distance
+
+adaboost_predict12.txt(n_est=300): common neighbors + jaccard spots + prob_common_spot + common_time_spot + check_cosine_common_spot + shortest_path + katzB + adamic_adar + mean_distance
+
+adaboost_predict13.txt(n_est=300): common neighbors + prob_common_spot + check_common_time_spot + check_cosine_common_spot + dist_common_spot + shortest_path + katzB + adamic_adar + mean_distance
+
+
+randomforest1.txt:(n_est=300, max_depth=20):common neighbors + prob_common_spot + common_time_spot + check_cosine_common_spot + shortest_path + katzB + adamic_adar + mean_distance
