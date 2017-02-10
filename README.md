@@ -9,4 +9,4 @@ There are many works related to location-based social network link prediction. I
 1. Scellato et al. [Exploiting Place Features in Link Prediction on Location-based Social Networks.](http://dl.acm.org/citation.cfm?id=2020575) in KDD 2011  
 2. Chao et al. [Evaluating geo-social influence in location-based social networks.](http://dl.acm.org/citation.cfm?id=2398450) in CIKM 2012  
 3. Mengshoel et al. [Will We Connect Again? Machine Learning for Link Prediction in Mobile Social Networks.](http://repository.cmu.edu/silicon_valley/152/) @ACM 2013  
-4. Bayrak et al. [Contextual Feature Analysis to Improve Link Prediction for Location Based Social Networks](http://http://dl.acm.org/citation.cfm?id=2659499) in KDD 2014
+4. Bayrak et al. [Contextual Feature Analysis to Improve Link Prediction for Location Based Social Networks](http://dl.acm.org/citation.cfm?id=2659499) in KDD 2014
