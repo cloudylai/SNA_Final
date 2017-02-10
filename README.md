@@ -5,7 +5,7 @@ Social Network Analysis Final Project
 The repository is a duplication of the final team project, link prediction on location-based social network, of NTU Social Network Analysis and Graph Mining Course ([website](http://www.csie.ntu.edu.tw/~sdlin/Courses/SNA2014.html)) in Fall, 2014. The Project is worked by Chiu-Te Wang, Liang-Wei Chen, and Chih-Te Lai. The objective of this project is to predict different kinds of users' potential interest in some attractions. In this project, we build a heterogeneous network and extract complicate features from it. We train different models and testify our models on [Gowalla](https://snap.stanford.edu/data/loc-gowalla.html) dataset. A brief report of the performance of our models is contained in results.
 
 ## Reference
-There are many works related to location-based social network link prediction. In this project, we look into serveral works including:
+There are many works related to location-based social network link prediction. In this project, we look into serveral works including:  
 1. Scellato et al. [Exploiting Place Features in Link Prediction on Location-based Social Networks.](http://dl.acm.org/citation.cfm?id=2020575) in KDD 2011  
 2. Chao et al. [Evaluating geo-social influence in location-based social networks.](http://dl.acm.org/citation.cfm?id=2398450) in CIKM 2012  
 3. Mengshoel et al. [Will We Connect Again? Machine Learning for Link Prediction in Mobile Social Networks.](http://repository.cmu.edu/silicon_valley/152/) @ACM 2013  
