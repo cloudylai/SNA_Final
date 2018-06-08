@@ -1,4 +1,4 @@
-# SNA_Project
+# SNA_Final
 Social Network Analysis Final Project
 
 ## Overview
