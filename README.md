@@ -7,12 +7,12 @@ The repository is a duplication of the final team project, link prediction on lo
 ## Method
 In order to perform link prediction, we build a supervised classifier based on random forest. Our main contribution is to design three kinds of features obtained by exploiting the topological structure of social network and behavior records among users. The three kinds of features are social/graph features (g), check-in/location features (c), and heterogeneous graph features (h). The detail of these three kinds of features are described in report. A diagram of our learning method is below. 
 
-![image1]( https://github.com/cloudylai/SNA_Final/images/diagram1.png) 
+![image1](https://github.com/cloudylai/SNA_Final/blob/master/images/diagram1.png) 
 
 ## Result
 The following figure is the AUC-ROC curve on the testing data. The blue curve stands for our baseline model which is trained by using one graphical feature. The green, the red, and the aqua curves represent the models which are trained by using (g), (g) + (c), (g) + (c) + (h) respectively. The result shows that our designed features improve the performance of learning classifier compared with baseline model.
 
-![image2]( https://github.com/cloudylai/SNA_Final/results/exps_ROC2.png)
+![image2](https://github.com/cloudylai/SNA_Final/blob/master/results/exps_ROC2.png)
 
 
 
